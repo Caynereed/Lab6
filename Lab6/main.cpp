@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  Lab6
-//
-//  Created by Cayne Reed on 11/13/23.
-//
+// Main
 
-#include <iostream>
+// Calling Functions
+void FileInput();
+void ScreenOutput();
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+// Run Program
+int main ()
+{
+    {
+        FileInput();
+        ScreenOutput();
+    }
+    
     return 0;
 }
